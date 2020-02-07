@@ -1,0 +1,110 @@
+/*Global*/
+
+
+*,
+*::before,*::after {
+  box-sizing: border-box;
+}
+
+$font-text:'Roboto Slab', serif;
+$font-header:'Montserrat', sans-serif;
+$color-one: #ffffff;
+$color-two: #f7f7f7;
+$color-three: #fed136;
+
+body {
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-list li {
+  list-style-type: none;
+  display: none;
+}
+
+i.fas.fa-bars {
+
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 0;
+  width: 100%;
+}
+
+.header-image-holder {
+
+}
+
+.background-image {
+  display: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+}
+
+.logo {
+
+}
+
+.navigation {
+  display: flex;
+  display: inline-block;
+  position: absolute;
+}
+
+a.menu-item {
+
+}
+
+.navigation li {
+
+}
+
+.btn1 {
+
+}
+
+.header-wrapper {
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+h1 {
+  font-family: $font-header;
+  font-size: 40px;
+  font-style: italic;
+  color: #fff;
+
+}
+
+h2 {
+  font-family: $font-header;
+  font-size: 80px;
+  color: #fff;
+
+}

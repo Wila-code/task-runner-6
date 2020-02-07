@@ -1,0 +1,87 @@
+/*Global*/
+*,
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+}
+
+.menu-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.item {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu-list li {
+  list-style-type: none;
+  display: none;
+}
+
+.header-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0 0;
+  width: 100%;
+}
+
+.background-image {
+  display: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation {
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  position: absolute;
+}
+
+.header-wrapper {
+  display: inline;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
