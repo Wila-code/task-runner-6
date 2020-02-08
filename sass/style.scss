@@ -147,7 +147,7 @@ font-style: italic;
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: $text-font;
+  font-family: $font-text;
   margin: 0 60px;
 }
 
@@ -173,4 +173,38 @@ font-family: $font-text;
 font-size: 14px;
 font-weight: 400;
 letter-spacing: -0.35px;
+}
+
+
+/* Portfolio*/
+
+.portfolio-container {
+  position: relative;
+  max-width: 100%;
+  min-height: 1200px;
+  background-color: $color-two;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 570px;
+  padding: 50px 10px;
+}
+
+
+.portfolio h2 {
+  text-align: center;
+  font-family: $font-header;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-top: 70px;
+}
+
+.portfolio h5 {
+text-align: center;
+color: #777777;
+font-family: $font-header;
+font-size: 16px;
+font-style: italic;
 }
