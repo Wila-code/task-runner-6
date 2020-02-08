@@ -270,9 +270,11 @@ i.far.fa-copyright {
   color: #555555;
   border: none;
   background-color: $color-two;
+  width: auto;
+  height: auto;
 }
 
-.copy p{
+.copy p {
 width: 255px;
 height: 14px;
 color: #555555;

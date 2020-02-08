@@ -252,6 +252,8 @@ i.far.fa-copyright {
   color: #555555;
   border: none;
   background-color: #f7f7f7;
+  width: auto;
+  height: auto;
 }
 
 .copy p {
