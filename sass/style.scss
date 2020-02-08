@@ -9,8 +9,9 @@
 $font-text:'Roboto Slab', serif;
 $font-header:'Montserrat', sans-serif;
 $color-one: #ffffff;
-$color-two: #f7f7f7;
+$color-two: #f7f7f7; /*background*/
 $color-three: #fed136;
+
 
 body {
   margin: 0;
@@ -107,4 +108,69 @@ h2 {
   font-size: 80px;
   color: #fff;
 
+}
+
+/*Services*/
+
+.service-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services h2 {
+  text-align: center;
+  font-family: $font-header;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-top: 70px;
+}
+
+.services h5 {
+text-align: center;
+color: #777777;
+font-family: $font-header;
+font-size: 16px;
+font-style: italic;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 72px;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: $text-font;
+  margin: 0 60px;
+}
+
+i {
+  background-color: $color-one;
+  font-size: 27px;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 3px solid $color-three;
+  color: $color-three;
+  line-height: 60px;
+  padding-top: 6px;
+  margin: 0 auto;
+}
+
+.services p {
+
+width: 274px;
+height: 57px;
+color: #777777;
+font-family: $font-text;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.35px;
 }
