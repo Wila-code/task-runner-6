@@ -249,3 +249,76 @@ letter-spacing: -0.35px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* Footer*/
+
+.container-footer {
+  display: flex;
+  justify-content:center;
+  background-color: $color-two;
+}
+
+.copy {
+  text-align: center;
+  flex: 1;
+  padding-top: 20px;
+}
+
+i.far.fa-copyright {
+  font-size: 14px;
+  color: #555555;
+  border: none;
+  background-color: $color-two;
+}
+
+.copy p{
+width: 255px;
+height: 14px;
+color: #555555;
+font-family: $font-header;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.35px;
+}
+
+.icon-menu {
+  display:flex;
+  flex: 2;
+}
+.list-inline {
+  list-style-type: none;
+  margin-left: 40px;
+  padding-left: 72px;
+  padding-top: 20px;
+}
+
+.list-inline li {
+  text-decoration: none;
+  display: inline;
+}
+
+.list-inline-item {
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+}
+.list-inline-item span {
+  font-size: 0;
+}
+
+
+i.fab.fa-twitter,
+i.fab.fa-facebook-f,
+i.fab.fa-pinterest,
+i.fab.fa-google-plus-g {
+  color: $color-one;
+  font-size: 18px;
+  height: 40px;
+  width: 41px;
+  background-color: black;
+  border: none;
+  margin-right: 9px;
+  padding-top:10px;
+}
