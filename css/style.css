@@ -186,4 +186,34 @@ i {
   font-size: 16px;
   font-style: italic;
 }
+
+.portfolio-row {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image-card {
+  width: 75%;
+  height: 390px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.image-card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image-card p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.image-card span {
+  font-weight: normal;
+  font-size: 14px;
+  color: #777777;
+}
 /*# sourceMappingURL=style.css.map */
