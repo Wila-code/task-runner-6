@@ -247,26 +247,6 @@ i {
   padding-top: 100px;
 }
 
-/*
-
-.portfolio h2 {
-  text-align: center;
-  font-family: $font-header;
-  color: black;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 75px;
-  margin-top: 70px;
-}
-
-.portfolio h5 {
-  text-align: center;
-  color: #777777;
-  font-family: $font-header;
-  font-size: 16px;
-  font-style: italic;
-}
-*/
 .portfolio-row {
   display: -ms-flexbox;
   display: flex;
@@ -274,8 +254,6 @@ i {
       flex-wrap: wrap;
 }
 
-/*portfolio-row: width: 941px;
-height: 393px;*/
 .image-card {
   width: 75%;
   height: 390px;
@@ -320,8 +298,6 @@ height: 393px;*/
 .footer-container {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
   -ms-flex-pack: center;
       justify-content: center;
   background-color: #ffffff;
@@ -397,5 +373,67 @@ i.fab.fa-google-plus-g {
   border: none;
   margin-right: 9px;
   padding-top: 10px;
+}
+
+/* @Media querries */
+@media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+  .portfolio {
+    padding: 0;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .container-footer {
+    -ms-grid-column-align: center;
+        justify-items: center;
+  }
+  .header-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .hamburger {
+    display: block;
+  }
+  .div.navigation {
+    display: none;
+  }
+  .img.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .btn1 {
+    font-size: 8px;
+    padding: 6px 6px;
+  }
+  .services-container {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .container-footer {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .our-portfolio .title h2 {
+    font-size: 35px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

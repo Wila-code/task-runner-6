@@ -1,6 +1,4 @@
 /*Global*/
-
-
 *,
 *::before,*::after {
   box-sizing: border-box;
@@ -11,7 +9,6 @@ $font-header:'Montserrat', sans-serif;
 $color-one: #ffffff;
 $color-two: #f7f7f7; /*background*/
 $color-three: #fed136;
-
 
 body {
   margin: 0;
@@ -170,7 +167,6 @@ margin-bottom: 70px;
 }
 
 /*Services*/
-
 .service-row {
   display: flex;
   flex-direction: column;
@@ -213,13 +209,13 @@ font-size: 14px;
 font-weight: 400;
 letter-spacing: -0.35px;
 }
+
  .services .title h2 {
    padding-top: 30px;
  }
 
 
 /* Portfolio*/
-
 .our-portfolio {
   background-color: $color-two;
 
@@ -235,35 +231,11 @@ letter-spacing: -0.35px;
 .our-portfolio .title h2 {
   padding-top: 100px;
 }
-/*
-
-.portfolio h2 {
-  text-align: center;
-  font-family: $font-header;
-  color: black;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 75px;
-  margin-top: 70px;
-}
-
-.portfolio h5 {
-  text-align: center;
-  color: #777777;
-  font-family: $font-header;
-  font-size: 16px;
-  font-style: italic;
-}
-*/
 
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
 }
-
-/*portfolio-row: width: 941px;
-height: 393px;*/
-
 
 .image-card {
   width: 75%;
@@ -303,12 +275,9 @@ height: 393px;*/
   margin-right: auto;
 }
 
-
 /* Footer*/
-
 .footer-container {
   display: flex;
-  flex-direction: row;
   justify-content:center;
   background-color: $color-one;
 }
@@ -365,7 +334,6 @@ letter-spacing: -0.35px;
   font-size: 0;
 }
 
-
 i.fab.fa-twitter,
 i.fab.fa-facebook-f,
 i.fab.fa-pinterest,
@@ -378,4 +346,66 @@ i.fab.fa-google-plus-g {
   border: none;
   margin-right: 9px;
   padding-top:10px;
+}
+
+/* @Media querries */
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0;
+  }
+
+  .portfolio {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .container-footer {
+    justify-items: center;
+  }
+
+
+  .header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ul {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .div.navigation {
+    display:none;
+  }
+
+.img.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.btn1 {
+  font-size: 8px;
+  padding: 6px 6px;
+}
+
+.services-container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-footer {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-portfolio .title h2 {
+  font-size: 35px;
+}
+
 }
