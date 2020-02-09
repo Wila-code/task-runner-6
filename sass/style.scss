@@ -87,16 +87,18 @@ ul {
   top: 36px;
   left: 124px;
 }
+/*
 .header-container:hoover.overlay {
   opacity: 40%;
 }
+*/
 
 .navigation {
   display: flex;
   display: inline-block;
   position: absolute;
   top: 40px;
-  right: 18%;
+  right: 13%;
 }
 
 a.menu-item {
@@ -105,7 +107,7 @@ a.menu-item {
   list-style-type: none;
   font-family:$font-header;
   color: $color-one;
-  font-size: 20px;
+  font-size: 14px;
   padding-right: 34px;
 }
 
@@ -124,11 +126,13 @@ a.menu-item {
   font-size: 18px;
   padding: 25px 50px;
   font-weight: 700;
+  margin-top: 54px;
 }
-
+/*
 .btn1:hover {
   transform: scale(1.2);
 }
+*/
 
 .header-wrapper {
   display: inline-flex;
@@ -143,12 +147,16 @@ h2 {
   font-size: 40px;
   font-style: italic;
   color: $color-one;
+  margin-bottom: 0;
+  margin-top: 40px;
 }
 
 h1 {
   font-family: $font-header;
   font-size: 75px;
   color: $color-one;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 
 /*Services*/
