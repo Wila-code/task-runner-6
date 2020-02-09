@@ -98,6 +98,37 @@ ul {
   display: flex;
   display: inline-block;
   position: absolute;
+  top: 40px;
+  right: 18%;
+}
+
+a.menu-item {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding-right: 34px;
+}
+
+.navigation li {
+  display: inline;
+  list-style-type: none;
+}
+
+.btn1 {
+  background-color: #fed136;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.btn1:hover {
+  transform: scale(1.2);
 }
 
 .header-wrapper {
@@ -111,17 +142,17 @@ ul {
   position: absolute;
 }
 
-h1 {
+h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-style: italic;
-  color: #fff;
+  color: #ffffff;
 }
 
-h2 {
+h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 80px;
-  color: #fff;
+  font-size: 75px;
+  color: #ffffff;
 }
 
 /*Services*/
