@@ -12,6 +12,8 @@ body {
 .hamburger {
   display: none;
   position: absolute;
+  top: 15px;
+  right: 10px;
 }
 
 .menu-list {
@@ -19,17 +21,32 @@ body {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  background-color: #f7f7f7;
+  padding: 0, 10px;
 }
 
 .item {
   display: block;
   text-decoration: none;
   list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15;
+  color: black;
+  background-color: #f7f7f7;
+  padding: 0 20px;
+  margin: 0 20px;
 }
 
 .menu-list li {
   list-style-type: none;
   display: none;
+}
+
+i.fas.fa-bars {
+  font-size: 28px;
+  background-color: none;
+  color: #f7f7f7;
+  border: none;
 }
 
 .header-container {
@@ -43,6 +60,17 @@ body {
   width: 100%;
 }
 
+.header-holder {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  width: 100%;
+}
+
 .background-image {
   display: center;
   background-size: cover;
@@ -53,6 +81,16 @@ body {
 ul {
   display: -ms-flexbox;
   display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: 36px;
+  left: 124px;
+}
+
+.header-container:hoover.overlay {
+  opacity: 40%;
 }
 
 .navigation {
@@ -157,14 +195,13 @@ i {
 }
 
 /* Portfolio*/
-.portfolio-container {
+.portfolio {
   position: relative;
-  max-width: 100%;
+  max-width: 940px;
   background-color: #f7f7f7;
   color: black;
   margin: 0 auto;
   text-align: center;
-  min-height: 570px;
   padding: 50px 10px;
 }
 
@@ -189,6 +226,8 @@ i {
 .portfolio-row {
   display: -ms-flexbox;
   display: flex;
+  width: 941px;
+  height: 393px;
 }
 
 .image-card {
@@ -196,6 +235,9 @@ i {
   height: 390px;
   background-color: white;
   margin: 0 auto;
+  /* Style for "Item 1" */
+  width: 291px;
+  height: 393px;
 }
 
 .image-card img {
@@ -210,6 +252,10 @@ i {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   color: #333333;
+}
+
+.holder {
+  width: 100%;
 }
 
 .image-card span {
@@ -237,7 +283,7 @@ i {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 
 .copy {

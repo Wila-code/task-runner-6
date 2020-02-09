@@ -20,17 +20,27 @@ body {
 .hamburger {
   display: none;
   position: absolute;
+  top: 15px;
+  right: 10px;
 }
 
 .menu-list {
   display: flex;
   flex-direction: column;
+  background-color: $color-two;
+  padding: 0, 10px;
 }
 
 .item {
   display: block;
   text-decoration: none;
   list-style-type: none;
+  font-family:$font-header;
+  font-size: 15;
+  color: black;
+  background-color: $color-two;
+  padding: 0 20px;
+  margin: 0 20px;
 }
 
 .menu-list li {
@@ -39,7 +49,10 @@ body {
 }
 
 i.fas.fa-bars {
-
+  font-size: 28px;
+  background-color: none;
+  color: $color-two;
+  border: none;
 }
 
 .header-container {
@@ -50,8 +63,12 @@ i.fas.fa-bars {
   width: 100%;
 }
 
-.header-image-holder {
-
+.header-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
 }
 
 .background-image {
@@ -66,7 +83,12 @@ ul {
 }
 
 .logo {
-
+  position: absolute;
+  top: 36px;
+  left: 124px;
+}
+.header-container:hoover.overlay {
+  opacity: 40%;
 }
 
 .navigation {
@@ -178,16 +200,17 @@ letter-spacing: -0.35px;
 
 /* Portfolio*/
 
-.portfolio-container {
+
+.portfolio {
   position: relative;
-  max-width: 100%;
+  max-width: 940px;
   background-color: $color-two;
   color: black;
   margin: 0 auto;
   text-align: center;
-  min-height: 570px;
   padding: 50px 10px;
 }
+
 
 .portfolio h2 {
   text-align: center;
@@ -210,6 +233,8 @@ letter-spacing: -0.35px;
 
 .portfolio-row {
   display: flex;
+  width: 941px;
+  height: 393px;
 }
 
 .image-card {
@@ -217,6 +242,9 @@ letter-spacing: -0.35px;
   height: 390px;
   background-color: white;
   margin: 0 auto;
+  /* Style for "Item 1" */
+width: 291px;
+height: 393px;
 }
 
 .image-card img {
@@ -230,6 +258,10 @@ letter-spacing: -0.35px;
   font-size: 18px;
   font-family: $font-header;
   color: #333333;
+}
+
+.holder {
+  width: 100%;
 }
 
 .image-card span {
@@ -256,7 +288,7 @@ letter-spacing: -0.35px;
 .container-footer {
   display: flex;
   justify-content:center;
-  background-color: $color-two;
+  background-color: $color-one;
 }
 
 .copy {
