@@ -125,6 +125,8 @@ a.menu-item {
   border-radius: 5%;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  padding: 25px 50px;
+  font-weight: 700;
 }
 
 .btn1:hover {
@@ -132,7 +134,8 @@ a.menu-item {
 }
 
 .header-wrapper {
-  display: inline;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-pack: center;

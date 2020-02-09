@@ -122,6 +122,8 @@ a.menu-item {
   border-radius: 5%;
   font-family: $font-header;
   font-size: 18px;
+  padding: 25px 50px;
+  font-weight: 700;
 }
 
 .btn1:hover {
@@ -129,7 +131,7 @@ a.menu-item {
 }
 
 .header-wrapper {
-  display: inline;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
