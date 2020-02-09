@@ -87,11 +87,6 @@ ul {
   top: 36px;
   left: 124px;
 }
-/*
-.header-container:hoover.overlay {
-  opacity: 40%;
-}
-*/
 
 .navigation {
   display: flex;
@@ -128,11 +123,6 @@ a.menu-item {
   font-weight: 700;
   margin-top: 54px;
 }
-/*
-.btn1:hover {
-  transform: scale(1.2);
-}
-*/
 
 .header-wrapper {
   display: inline-flex;
@@ -149,6 +139,7 @@ h2 {
   color: $color-one;
   margin-bottom: 0;
   margin-top: 40px;
+  padding-top: 70px;
 }
 
 h1 {
@@ -159,30 +150,31 @@ h1 {
   margin-top: 20px;
 }
 
+.title h2 {
+  text-align: center;
+  font-family: $font-header;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.title h5 {
+text-align: center;
+color: #777777;
+font-family: $font-header;
+font-size: 16px;
+font-style: italic;
+margin-top: 5px;
+margin-bottom: 70px;
+}
+
 /*Services*/
 
 .service-row {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.services h2 {
-  text-align: center;
-  font-family: $font-header;
-  color: black;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 75px;
-  margin-top: 70px;
-}
-
-.services h5 {
-text-align: center;
-color: #777777;
-font-family: $font-header;
-font-size: 16px;
-font-style: italic;
 }
 
 .service-container {
@@ -197,24 +189,22 @@ font-style: italic;
   flex-direction: column;
   text-align: center;
   font-family: $font-text;
-  margin: 0 60px;
 }
 
 i {
   background-color: $color-one;
-  font-size: 27px;
+  font-size: 33px;
   width: 68px;
   height: 68px;
   border-radius: 50%;
   border: 3px solid $color-three;
   color: $color-three;
   line-height: 60px;
-  padding-top: 6px;
+  padding-top: 16px;
   margin: 0 auto;
 }
 
 .services p {
-
 width: 274px;
 height: 57px;
 color: #777777;
@@ -224,44 +214,32 @@ font-weight: 400;
 letter-spacing: -0.35px;
 }
 
+ .services .title h2 {
+   padding-top: 30px;
+ }
+
 
 /* Portfolio*/
 
+.our-portfolio {
+  background-color: $color-two;
 
+}
 .portfolio {
   position: relative;
-  max-width: 940px;
-  background-color: $color-two;
-  color: black;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding: 50px 10px;
+  min-height: 570px;
 }
 
-
-.portfolio h2 {
-  text-align: center;
-  font-family: $font-header;
-  color: black;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 75px;
-  margin-top: 70px;
-}
-
-.portfolio h5 {
-  text-align: center;
-  color: #777777;
-  font-family: $font-header;
-  font-size: 16px;
-  font-style: italic;
-
+.our-portfolio .title h2 {
+  padding-top: 100px;
 }
 
 .portfolio-row {
   display: flex;
-  width: 941px;
-  height: 393px;
+  flex-wrap: wrap;
 }
 
 .image-card {
@@ -269,9 +247,6 @@ letter-spacing: -0.35px;
   height: 390px;
   background-color: white;
   margin: 0 auto;
-  /* Style for "Item 1" */
-width: 291px;
-height: 393px;
 }
 
 .image-card img {
@@ -285,10 +260,6 @@ height: 393px;
   font-size: 18px;
   font-family: $font-header;
   color: #333333;
-}
-
-.holder {
-  width: 100%;
 }
 
 .image-card span {
@@ -312,7 +283,7 @@ height: 393px;
 
 /* Footer*/
 
-.container-footer {
+.footer {
   display: flex;
   justify-content:center;
   background-color: $color-one;
@@ -369,7 +340,6 @@ letter-spacing: -0.35px;
   font-size: 0;
 }
 
-
 i.fab.fa-twitter,
 i.fab.fa-facebook-f,
 i.fab.fa-pinterest,
@@ -381,5 +351,5 @@ i.fab.fa-google-plus-g {
   background-color: black;
   border: none;
   margin-right: 9px;
-  padding-top:10px;
+  padding-top: 10px;
 }
