@@ -320,6 +320,8 @@ height: 393px;*/
 .footer-container {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-pack: center;
       justify-content: center;
   background-color: #ffffff;
