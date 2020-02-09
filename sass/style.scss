@@ -213,7 +213,6 @@ font-size: 14px;
 font-weight: 400;
 letter-spacing: -0.35px;
 }
-
  .services .title h2 {
    padding-top: 30px;
  }
@@ -236,11 +235,35 @@ letter-spacing: -0.35px;
 .our-portfolio .title h2 {
   padding-top: 100px;
 }
+/*
+
+.portfolio h2 {
+  text-align: center;
+  font-family: $font-header;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-top: 70px;
+}
+
+.portfolio h5 {
+  text-align: center;
+  color: #777777;
+  font-family: $font-header;
+  font-size: 16px;
+  font-style: italic;
+}
+*/
 
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
 }
+
+/*portfolio-row: width: 941px;
+height: 393px;*/
+
 
 .image-card {
   width: 75%;
@@ -283,7 +306,7 @@ letter-spacing: -0.35px;
 
 /* Footer*/
 
-.footer {
+.footer-container {
   display: flex;
   justify-content:center;
   background-color: $color-one;
@@ -292,7 +315,8 @@ letter-spacing: -0.35px;
 .copy {
   text-align: center;
   flex: 1;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-left: 40px;
 }
 
 i.far.fa-copyright {
@@ -316,14 +340,14 @@ letter-spacing: -0.35px;
 }
 
 .icon-menu {
-  display:flex;
+  display: flex;
+  justify-content:center;
   flex: 2;
 }
 .list-inline {
   list-style-type: none;
-  margin-left: 40px;
-  padding-left: 72px;
-  padding-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .list-inline li {
@@ -340,6 +364,7 @@ letter-spacing: -0.35px;
   font-size: 0;
 }
 
+
 i.fab.fa-twitter,
 i.fab.fa-facebook-f,
 i.fab.fa-pinterest,
@@ -351,5 +376,5 @@ i.fab.fa-google-plus-g {
   background-color: black;
   border: none;
   margin-right: 9px;
-  padding-top: 10px;
+  padding-top:10px;
 }
